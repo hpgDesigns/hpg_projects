@@ -1,0 +1,4 @@
+High Scores
+
+These are scores for users of Begemed 2.
+The default user is contained in the default.bg2 file.

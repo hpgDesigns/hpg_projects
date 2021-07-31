@@ -1,0 +1,13 @@
+External Gems
+By DFortun81
+
+Gems are 72x72 20-frame Animated GIF files that
+the Begemed 2 engine will recognize and load into the game.
+
+NOTE: If you prefer to have faster load times, it is recommended 
+that you only have 5 or 6 gem files in this folder. 
+But you MUST have at least one. A Gem is considered a Mask, an Image,
+and a light image, "_" at the end indicates a Mask.
+
+NOTE2: The more you have, the harder the game will become! 
+Less is the opposite, it makes it easier.

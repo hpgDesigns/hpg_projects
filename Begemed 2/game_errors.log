@@ -1,0 +1,9 @@
+FATAL ERROR in
+action number 1
+of Create Event
+for object obj_init:
+
+COMPILATION ERROR in code actionError in code at line 35:   
+global.back_logo = background_add_alpha(image_dir + "Misc\Begemed.png",1);                      ^at position 21: Unknown function or script: background_add_alpha
+
+
