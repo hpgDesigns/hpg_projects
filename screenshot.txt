@@ -1,0 +1,13 @@
+screenshotname = "";
+screenshotname = get_save_filename("Screenshot Save (*.bmp)|*.bmp", "Screenshot");
+if (screenshotname != "")
+	{
+	if (string_copy(screenshotname, string_length(screenshotname) - 3, 4) != ".svg")
+	{
+	screenshotname = screenshotname + ".bmp";
+	}
+	screen_save(screenshotname);
+	}
+
+
+

@@ -1,0 +1,13 @@
+SaveGameName = "";
+SaveGameName = get_save_filename("Save Games (*.svg)|*.svg", "Save.svg");
+if (SaveGameName != "")
+	{
+	if (string_copy(SaveGameName, string_length(SaveGameName) - 3, 4) != ".svg")
+	{
+	SaveGameName = SaveGameName + ".svg";
+	}
+	game_save(SaveGameName);
+	}
+
+
+
